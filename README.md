@@ -21,7 +21,7 @@ library(data.table)
 ```
 
 # Script execution
-The script run_analysis.R should be placed in the current working directory. Run the following command in R to execute the script.
+The script run_analysis.R should be placed in the current working directory. Run the following command in R to execute the script (Note: change path to script as applicable on your machine). 
 ```{r}
 source('E:/Data/DS/Getting and Cleaning the data/run_analysis.R')
 ```
