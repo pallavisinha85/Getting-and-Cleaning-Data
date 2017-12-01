@@ -39,5 +39,5 @@ moltenHARData <- melt(extractedData, id.vars = c("subject", "activity"), measure
 tidyHARData <- dcast(moltenHARData, subject + activity ~ measuredVariable,mean)
 
 # Write the tidy data set to a text file in the current directory
-write.table(tidyHARData, file = "TidyHARData.txt", quote = FALSE)
+write.table(tidyHARData, file = "TidyHARData.txt", quote = FALSE, row.names = FALSE)
 ifelse(file.exists(".\\TidyHARData.txt"), print("Tidy data set generated successfully as TidyHARData.txt"), print("Failed to generate tidy data set."))
