@@ -1,6 +1,3 @@
----
-output: html_document
----
 # Introduction
 This markdown file describes the raw data, its variables and transformations applied to generate the tidy data set.
 
